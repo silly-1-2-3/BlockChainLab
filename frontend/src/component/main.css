@@ -1,0 +1,107 @@
+/* main.css */
+.list-container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.list-item {
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.list-item h3 {
+    margin: 0;
+    color: #333;
+}
+
+.list-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.card-container {
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    width: 200px; /* 设置输入框的宽度 */
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #1890ff;
+    border-color: #1890ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    border-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Card样式 */
+.ant-card {
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ant-card-head-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* 优化Card内部布局 */
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end; /* 修改为flex-end使其靠右对齐 */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
