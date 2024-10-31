@@ -52,7 +52,9 @@ contract BuyMyRoom is ERC721 {
         // ...
     }
 
-    mapping(uint256 => Room) public Rooms; // A map from Room-index to its information
+    mapping(uint256 => Room) public Rooms;
+// ...
+}// A map from Room-index to its information
 ```
 
 The given codes shows how this ERC721 contract "BuyMyRoom" was declared. It also shows my struct, "Room", which contained useful information. A mapping was used to map the memory to an array Rooms[], which stored all the Room structs.
