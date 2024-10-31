@@ -2,6 +2,8 @@
 
 by 叶皓天，3220105788
 
+`注意：一定要完整走完部署项目过程，重新编译合约并替换.json文件，才能保证项目正确运行！！！`
+
 ## Introduction
 
 This project is a combination of two contracts: one ERC721 contract which can mint NFC (we call it "Room") and trade these NFCs, and one ERC20 contract which can transform Ethers to sepcial ERC20 credits. Then the credits we got from ERC20 contract will be used as the currency in ERC721 contract.
